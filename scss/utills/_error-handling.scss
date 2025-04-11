@@ -1,0 +1,4 @@
+@if not variable-exists(primary-color) {
+    @error "Missing required variable: primary-color";
+  }
+  
